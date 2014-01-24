@@ -1,0 +1,27 @@
+
+    .hero-titles {
+    	text-align: center;
+        font-family: "omnes-pro", sans-serif;
+        padding: 0 1em;
+        margin: 2em auto;
+        max-width: 768px;
+    }
+    .hero-site {
+    	text-align: center;
+        font-size: 400%;
+        font-weight: 200;
+        margin: 0;
+        color: #1f8dd6;
+    }
+    .hero-tagline {
+        font-size: 150%;
+        font-weight: 100;
+        line-height: 1.5;
+        margin: 0 0 1em;
+        color: #666;
+    }
+
+.hero-cta .code {
+    margin-left: auto;
+    margin-right: auto;
+}

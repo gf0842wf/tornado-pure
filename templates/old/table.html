@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset=utf-8>
+    <title>表格模板</title>
+    <link rel="stylesheet" href="/static/css/pure/tables.css"/>
+</head>
+<body>
+	
+<table class="pure-table pure-table-bordered">
+    <thead>
+        <tr>
+        	{% for elem in header_field %}
+        		{% block elem %}
+        			<th> {{ escape(elem) }} </th>
+        		{% end %}
+        	{% end %}
+        </tr>
+    </thead>
+
+    <tbody>
+    	{% for line in ctx_field %}
+    		{% block line %}
+    		<tr>
+    			{% for elem in line %}
+    				{% block elem %}
+    					<td> {{ escape(elem) }}</td>
+    				{% end %}
+    			{% end %}
+    		{% end %}
+    		</tr>
+    	{% end %}
+    </tbody>
+</table>
+
+</body>
+</html>
