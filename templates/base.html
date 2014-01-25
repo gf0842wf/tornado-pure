@@ -27,17 +27,17 @@
 		            <ul>
 		            	{% for idx in xrange(len(menus)) %}
 		            		{% block idx %}
-		            		{% if idx % 2 == 0 %}
-		            			{% if idx == sel %}
-		            			<li class="menu-item-divided pure-menu-selected">
-		            			{% else %}
-		            			<li class="menu-item-divided">
-		            			{% end %}
-		            		{% else %}
+		            		{% if idx % 2 == 1 or idx == 0 %}
 		            			{% if idx == sel %}
 		            			<li class="pure-menu-selected">
 		            			{% else %}
 		            			<li>
+		            			{% end %}
+		            		{% else %}
+		            			{% if idx == sel %}
+		            			<li class="menu-item-divided pure-menu-selected">
+		            			{% else %}
+		            			<li class="menu-item-divided">
 		            			{% end %}
 		            		{% end %}
 		            			<a href={{escape(menus[idx][1])}}>{{escape(menus[idx][0])}}</a>
