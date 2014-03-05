@@ -3,16 +3,19 @@
 """启动web server"""
 
 import tornado.ioloop
-import sys
 
 from application import application
+from tornado.options import define, options
+from twisted.python import log, logfile
+# from lib.utils import LogMixin
 
-PORT = "8888"   
+define("port", 8888, help="port", type=int)
 
 if __name__ == "__main__":
-    if len(sys.argv) > 1:
-        PORT = sys.argv[1]
-    application.listen(PORT)
-    print "Development server is running at http://localhost:%s" % PORT
-    print "Quit the server with CTRL-C"
+    # 定义日志格式
+    lf = logfile.DailyLogFile("xxx.log","var/log/")
+    log.FileLogObserver.timeFormat = "%Y-%m-%d %H:%M:%S"
+    log.startLogging(lf)
+    options.parse_command_line()
+    application.listen(options.port)
     tornado.ioloop.IOLoop.instance().start()
