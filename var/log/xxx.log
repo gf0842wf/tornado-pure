@@ -1,0 +1,267 @@
+2014-03-05 15:04:27 [-] Log opened.
+2014-03-05 15:04:35 [-] [I 140305 15:04:35 web:1635] 200 GET / (127.0.0.1) 15.00ms
+2014-03-05 15:04:35 [-] [I 140305 15:04:35 web:1635] 200 GET /static/css/pure/pure-min.css (127.0.0.1) 125.00ms
+2014-03-05 15:04:35 [-] [I 140305 15:04:35 web:1635] 200 GET /static/css/pure/hero.css (127.0.0.1) 0.00ms
+2014-03-05 15:04:35 [-] [I 140305 15:04:35 web:1635] 200 GET /static/css/pure/side-menu.css (127.0.0.1) 16.00ms
+2014-03-05 15:04:35 [-] [W 140305 15:04:35 web:1635] 404 GET /favicon.ico (127.0.0.1) 0.00ms
+2014-03-05 15:05:22 [-] [I 140305 15:05:22 web:1635] 304 GET / (127.0.0.1) 0.00ms
+2014-03-05 15:05:22 [-] [I 140305 15:05:22 web:1635] 304 GET /static/css/pure/pure-min.css (127.0.0.1) 0.00ms
+2014-03-05 15:05:22 [-] [I 140305 15:05:22 web:1635] 304 GET /static/css/pure/hero.css (127.0.0.1) 0.00ms
+2014-03-05 15:05:22 [-] [I 140305 15:05:22 web:1635] 304 GET /static/css/pure/side-menu.css (127.0.0.1) 0.00ms
+sten(port, address)
+2014-03-05 15:05:20 [-]   File "C:\Python27\lib\site-packages\tornado-3.1-py2.7.egg\tornado\tcpserver.py", line 117, in listen
+2014-03-05 15:05:20 [-]     sockets = bind_sockets(port, address=address)
+2014-03-05 15:05:20 [-]   File "C:\Python27\lib\site-packages\tornado-3.1-py2.7.egg\tornado\netutil.py", line 90, in bind_sockets
+2014-03-05 15:05:20 [-]     sock.bind(sockaddr)
+2014-03-05 15:05:20 [-]   File "C:\Python27\lib\socket.py", line 224, in meth
+2014-03-05 15:05:20 [-]     return getattr(self._sock,name)(*args)
+2014-03-05 15:05:20 [-] socket.error: [Errno 10048] 通常每个套接字地址(协议/网络地址/端口)
+2014-03-05 15:05:48 [-] Log opened.
+2014-03-05 15:05:48 [-] Traceback (most recent call last):
+2014-03-05 15:05:48 [-]   File "E:\projects\py\tornado-pure\server.py", line 20, in <module>
+2014-03-05 15:05:48 [-]     application.listen(options.port)
+2014-03-05 15:05:48 [-]   File "C:\Python27\lib\site-packages\tornado-3.1-py2.7.egg\tornado\web.py", line 1463, in listen
+2014-03-05 15:05:48 [-]     server.listen(port, address)
+2014-03-05 15:05:48 [-]   File "C:\Python27\lib\site-packages\tornado-3.1-py2.7.egg\tornado\tcpserver.py", line 117, in listen
+2014-03-05 15:05:48 [-]     sockets = bind_sockets(port, address=address)
+2014-03-05 15:05:48 [-]   File "C:\Python27\lib\site-packages\tornado-3.1-py2.7.egg\tornado\netutil.py", line 90, in bind_sockets
+2014-03-05 15:05:48 [-]     sock.bind(sockaddr)
+2014-03-05 15:05:48 [-]   File "C:\Python27\lib\socket.py", line 224, in meth
+2014-03-05 15:05:48 [-]     return getattr(self._sock,name)(*args)
+2014-03-05 15:05:48 [-] socket.error: [Errno 10048] 通常每个套接字地址(协议/网络地址/端口)
+2014-03-05 15:07:05 [-] Log opened.
+2014-03-05 15:07:07 [-] [I 140305 15:07:07 web:1635] 304 GET / (127.0.0.1) 0.00ms
+2014-03-05 15:07:07 [-] [I 140305 15:07:07 web:1635] 304 GET /static/css/pure/pure-min.css (127.0.0.1) 31.00ms
+2014-03-05 15:07:07 [-] [I 140305 15:07:07 web:1635] 304 GET /static/css/pure/hero.css (127.0.0.1) 0.00ms
+2014-03-05 15:07:07 [-] [I 140305 15:07:07 web:1635] 304 GET /static/css/pure/side-menu.css (127.0.0.1) 0.00ms
+2014-03-05 15:07:25 [-] [I 140305 15:07:25 autoreload:186] E:\projects\py\tornado-pure\server.py modified; restarting server
+2014-03-05 15:07:27 [-] Log opened.
+2014-03-05 15:08:20 [-] Log opened.
+2014-03-05 15:08:20 [-] Traceback (most recent call last):
+2014-03-05 15:08:20 [-]   File "E:\projects\py\tornado-pure\server.py", line 20, in <module>
+2014-03-05 15:08:20 [-]     application.listen(options.port)
+2014-03-05 15:08:20 [-]   File "C:\Python27\lib\site-packages\tornado-3.1-py2.7.egg\tornado\web.py", line 1463, in listen
+2014-03-05 15:08:20 [-]     server.listen(port, address)
+2014-03-05 15:08:20 [-]   File "C:\Python27\lib\site-packages\tornado-3.1-py2.7.egg\tornado\tcpserver.py", line 117, in listen
+2014-03-05 15:08:20 [-]     sockets = bind_sockets(port, address=address)
+2014-03-05 15:08:20 [-]   File "C:\Python27\lib\site-packages\tornado-3.1-py2.7.egg\tornado\netutil.py", line 90, in bind_sockets
+2014-03-05 15:08:20 [-]     sock.bind(sockaddr)
+2014-03-05 15:08:20 [-]   File "C:\Python27\lib\socket.py", line 224, in meth
+2014-03-05 15:08:20 [-]     return getattr(self._sock,name)(*args)
+2014-03-05 15:08:20 [-] socket.error: [Errno 10048] 通常每个套接字地址(协议/网络地址/端口)
+2014-03-05 15:08:23 [-] Log opened.
+2014-03-05 15:08:23 [-] Traceback (most recent call last):
+2014-03-05 15:08:23 [-]   File "E:\projects\py\tornado-pure\server.py", line 20, in <module>
+2014-03-05 15:08:23 [-]     application.listen(options.port)
+2014-03-05 15:08:23 [-]   File "C:\Python27\lib\site-packages\tornado-3.1-py2.7.egg\tornado\web.py", line 1463, in listen
+2014-03-05 15:08:23 [-]     server.listen(port, address)
+2014-03-05 15:08:23 [-]   File "C:\Python27\lib\site-packages\tornado-3.1-py2.7.egg\tornado\tcpserver.py", line 117, in listen
+2014-03-05 15:08:23 [-]     sockets = bind_sockets(port, address=address)
+2014-03-05 15:08:23 [-]   File "C:\Python27\lib\site-packages\tornado-3.1-py2.7.egg\tornado\netutil.py", line 90, in bind_sockets
+2014-03-05 15:08:23 [-]     sock.bind(sockaddr)
+2014-03-05 15:08:23 [-]   File "C:\Python27\lib\socket.py", line 224, in meth
+2014-03-05 15:08:23 [-]     return getattr(self._sock,name)(*args)
+2014-03-05 15:08:23 [-] socket.error: [Errno 10048] 通常每个套接字地址(协议/网络地址/端口)
+2014-03-05 15:08:37 [-] Log opened.
+2014-03-05 15:08:40 [-] [I 140305 15:08:40 web:1635] 304 GET / (127.0.0.1) 0.00ms
+2014-03-05 15:08:40 [-] [I 140305 15:08:40 web:1635] 304 GET /static/css/pure/pure-min.css (127.0.0.1) 32.00ms
+2014-03-05 15:08:40 [-] [I 140305 15:08:40 web:1635] 304 GET /static/css/pure/hero.css (127.0.0.1) 0.00ms
+2014-03-05 15:08:40 [-] [I 140305 15:08:40 web:1635] 304 GET /static/css/pure/side-menu.css (127.0.0.1) 0.00ms
+2014-03-05 15:08:58 [-] Log opened.
+2014-03-05 15:08:58 [-] start ioloop
+2014-03-05 15:08:58 [-] xxx
+2014-03-05 15:09:04 [-] [I 140305 15:09:04 web:1635] 304 GET / (127.0.0.1) 16.00ms
+2014-03-05 15:09:04 [-] [I 140305 15:09:04 web:1635] 304 GET /static/css/pure/pure-min.css (127.0.0.1) 31.00ms
+2014-03-05 15:09:04 [-] [I 140305 15:09:04 web:1635] 304 GET /static/css/pure/hero.css (127.0.0.1) 0.00ms
+2014-03-05 15:09:04 [-] [I 140305 15:09:04 web:1635] 304 GET /static/css/pure/side-menu.css (127.0.0.1) 16.00ms
+2014-03-05 15:10:04 [-] Log opened.
+2014-03-05 15:10:04 [-] start ioloop
+2014-03-05 15:10:04 [-] xxx
+2014-03-05 15:10:39 [-] [I 140305 15:10:39 autoreload:186] E:\projects\py\tornado-pure\server.py modified; restarting server
+2014-03-05 15:10:40 [-] Log opened.
+2014-03-05 15:10:40 [-] start ioloop
+2014-03-05 15:25:36 [-] Log opened.
+2014-03-05 15:25:36 [-] start ioloop
+2014-03-05 15:25:41 [-] [W 140305 15:25:41 web:1635] 405 GET /api (127.0.0.1) 0.00ms
+2014-03-05 15:26:09 [-] [W 140305 15:26:09 web:1635] 405 POST /api (127.0.0.1) 0.00ms
+2014-03-05 15:28:01 [-] Log opened.
+2014-03-05 15:28:01 [-] start ioloop
+2014-03-05 15:28:04 [-] ('127.0.0.1', 45351)
+2014-03-05 15:28:04 [-] [E 140305 15:28:04 web:1228] Uncaught exception POST /api (127.0.0.1)
+2014-03-05 15:28:04 [-]     HTTPRequest(protocol='http', host='localhost:8888', method='POST', uri='/api', version='HTTP/1.1', remote_ip='127.0.0.1', headers={'Origin': 'chrome-extension://fdmmgilgnpjigdojojpjoooidkmcomcm', 'Content-Length': '7', 'Accept-Language': 'zh-CN,zh;q=0.8,en;q=0.6', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': 'localhost:8888', 'Accept': '*/*', 'User-Agent': 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Safari/537.36', 'Connection': 'keep-alive', 'Cookie': 'user="d3c=|1392881130|67d7301b4f1155ff01e90eab43a41ae5d8110630"; session_id="YjA1MzE5ZTQwNWZiOGY3MjNiZmM4OWY0YjVlM2ZmOTMyNDI4MzkwOQ==|1392970212|e151c4943fcdb3e07c8e7e6bff89257f1a53be0f"; username="Zmx5a2luZw==|1392973363|ad2563a402f07fe1c7fba34cf7df854192270ad2"', 'Cache-Control': 'no-cache', 'Content-Type': 'application/x-www-form-urlencoded'})
+2014-03-05 15:28:04 [-]     Traceback (most recent call last):
+2014-03-05 15:28:04 [-]       File "C:\Python27\lib\site-packages\tornado-3.1-py2.7.egg\tornado\web.py", line 1141, in _when_complete
+2014-03-05 15:28:04 [-]         callback()
+2014-03-05 15:28:04 [-]       File "C:\Python27\lib\site-packages\tornado-3.1-py2.7.egg\tornado\web.py", line 1162, in _execute_method
+2014-03-05 15:28:04 [-]         self._when_complete(method(*self.path_args, **self.path_kwargs),
+2014-03-05 15:28:04 [-]       File "E:\projects\py\tornado-pure\handlers\base.py", line 12, in post
+2014-03-05 15:28:04 [-]         print body
+2014-03-05 15:28:04 [-]     NameError: global name 'body' is not defined
+2014-03-05 15:28:04 [-] [E 140305 15:28:04 web:1635] 500 POST /api (127.0.0.1) 0.00ms
+2014-03-05 15:28:13 [-] Log opened.
+2014-03-05 15:28:13 [-] start ioloop
+2014-03-05 15:28:13 [-] ('127.0.0.1', 45406)
+2014-03-05 15:28:13 [-] {'a': ['1'], 'b': ['2']}
+2014-03-05 15:28:13 [-] [I 140305 15:28:13 web:1635] 200 POST /api (127.0.0.1) 0.00ms
+2014-03-05 15:29:14 [-] ('127.0.0.1', 45406)
+2014-03-05 15:29:14 [-] {}
+2014-03-05 15:29:14 [-] [I 140305 15:29:14 web:1635] 200 POST /api (127.0.0.1) 0.00ms
+2014-03-05 15:29:50 [-] [I 140305 15:29:50 autoreload:186] E:\projects\py\tornado-pure\handlers\base.py modified; restarting server
+2014-03-05 15:29:52 [-] Log opened.
+2014-03-05 15:29:52 [-] start ioloop
+2014-03-05 15:30:05 [-] Log opened.
+2014-03-05 15:30:05 [-] start ioloop
+2014-03-05 15:30:13 [-] ('127.0.0.1', 45901)
+2014-03-05 15:30:13 [-] {}
+2014-03-05 15:30:13 [-] [1,2,3]
+2014-03-05 15:30:13 [-] [I 140305 15:30:13 web:1635] 200 POST /api (127.0.0.1) 0.00ms
+2014-03-05 15:31:19 [-] ('127.0.0.1', 45901)
+2014-03-05 15:31:19 [-] {'a': ['1'], 'b': ['2']}
+2014-03-05 15:31:19 [-] a=1&b=2
+2014-03-05 15:31:19 [-] [I 140305 15:31:19 web:1635] 200 POST /api (127.0.0.1) 0.00ms
+2014-03-05 15:41:54 [-] [I 140305 15:41:54 autoreload:186] E:\projects\py\tornado-pure\handlers\base.py modified; restarting server
+2014-03-05 15:41:56 [-] Log opened.
+2014-03-05 15:41:56 [-] start ioloop
+2014-03-05 15:42:07 [-] [I 140305 15:42:07 autoreload:186] E:\projects\py\tornado-pure\application.py modified; restarting server
+2014-03-05 15:42:09 [-] Log opened.
+2014-03-05 15:42:09 [-] start ioloop
+2014-03-05 15:42:20 [-] Log opened.
+2014-03-05 15:42:20 [-] start ioloop
+2014-03-05 15:42:43 [-] Log opened.
+2014-03-05 15:42:43 [-] start ioloop
+2014-03-05 15:42:47 [-] ('127.0.0.1', 49381)
+2014-03-05 15:42:47 [-] {}
+2014-03-05 15:42:47 [-] [1,2,3]
+2014-03-05 15:42:47 [-] [I 140305 15:42:47 web:1635] 200 POST /api (127.0.0.1) 16.00ms
+2014-03-05 15:45:39 [-] Log opened.
+2014-03-05 15:45:39 [-] start ioloop
+2014-03-05 15:45:42 [-] ('127.0.0.1', 50134)
+2014-03-05 15:45:42 [-] {'a': ['1'], 'b': ['2']}
+2014-03-05 15:45:42 [-] a=1&b=2
+2014-03-05 15:45:42 [-] 1
+2014-03-05 15:45:42 [-] [u'1']
+2014-03-05 15:45:42 [-] [I 140305 15:45:42 web:1635] 200 POST /api (127.0.0.1) 0.00ms
+2014-03-05 15:55:26 [-] Log opened.
+2014-03-05 15:55:26 [-] start ioloop
+2014-03-05 15:55:35 [-] ('127.0.0.1', 52802)
+2014-03-05 15:55:35 [-] [E 140305 15:55:35 web:1228] Uncaught exception POST /api (127.0.0.1)
+2014-03-05 15:55:35 [-]     HTTPRequest(protocol='http', host='localhost:8888', method='POST', uri='/api', version='HTTP/1.1', remote_ip='127.0.0.1', headers={'Origin': 'chrome-extension://fdmmgilgnpjigdojojpjoooidkmcomcm', 'Content-Length': '7', 'Accept-Language': 'zh-CN,zh;q=0.8,en;q=0.6', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': 'localhost:8888', 'Accept': '*/*', 'User-Agent': 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Safari/537.36', 'Connection': 'keep-alive', 'Cookie': 'user="d3c=|1392881130|67d7301b4f1155ff01e90eab43a41ae5d8110630"; session_id="YjA1MzE5ZTQwNWZiOGY3MjNiZmM4OWY0YjVlM2ZmOTMyNDI4MzkwOQ==|1392970212|e151c4943fcdb3e07c8e7e6bff89257f1a53be0f"; username="Zmx5a2luZw==|1392973363|ad2563a402f07fe1c7fba34cf7df854192270ad2"', 'Cache-Control': 'no-cache', 'Content-Type': 'application/x-www-form-urlencoded'})
+2014-03-05 15:55:35 [-]     Traceback (most recent call last):
+2014-03-05 15:55:35 [-]       File "C:\Python27\lib\site-packages\tornado-3.1-py2.7.egg\tornado\web.py", line 1141, in _when_complete
+2014-03-05 15:55:35 [-]         callback()
+2014-03-05 15:55:35 [-]       File "C:\Python27\lib\site-packages\tornado-3.1-py2.7.egg\tornado\web.py", line 1162, in _execute_method
+2014-03-05 15:55:35 [-]         self._when_complete(method(*self.path_args, **self.path_kwargs),
+2014-03-05 15:55:35 [-]       File "E:\projects\py\tornado-pure\handlers\base.py", line 30, in post
+2014-03-05 15:55:35 [-]         print self.body
+2014-03-05 15:55:35 [-]     AttributeError: 'BaseHandler' object has no attribute 'body'
+2014-03-05 15:55:35 [-] [E 140305 15:55:35 web:1635] 500 POST /api (127.0.0.1) 15.00ms
+2014-03-05 15:56:02 [-] Log opened.
+2014-03-05 15:56:02 [-] start ioloop
+2014-03-05 15:56:03 [-] ('127.0.0.1', 52970)
+2014-03-05 15:56:03 [-] a=1&b=2
+2014-03-05 15:56:03 [-] {'a': u'1', 'files': {}, 'b': u'2', 'headers': {'Origin': 'chrome-extension://fdmmgilgnpjigdojojpjoooidkmcomcm', 'Content-Length': '7', 'Accept-Language': 'zh-CN,zh;q=0.8,en;q=0.6', 'Accept-Encoding': 'gzip,deflate,sdch', 'Connection': 'keep-alive', 'Accept': '*/*', 'User-Agent': 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Safari/537.36', 'Host': 'localhost:8888', 'Cookie': 'user="d3c=|1392881130|67d7301b4f1155ff01e90eab43a41ae5d8110630"; session_id="YjA1MzE5ZTQwNWZiOGY3MjNiZmM4OWY0YjVlM2ZmOTMyNDI4MzkwOQ==|1392970212|e151c4943fcdb3e07c8e7e6bff89257f1a53be0f"; username="Zmx5a2luZw==|1392973363|ad2563a402f07fe1c7fba34cf7df854192270ad2"', 'Cache-Control': 'no-cache', 'Content-Type': 'application/x-www-form-urlencoded'}}
+2014-03-05 15:56:03 [-] [I 140305 15:56:03 web:1635] 200 POST /api (127.0.0.1) 0.00ms
+2014-03-05 15:59:19 [-] ('127.0.0.1', 53869)
+2014-03-05 15:59:19 [-] yy=5&xx=3
+2014-03-05 15:59:19 [-] {'yy': u'5', 'files': {}, 'xx': u'3', 'headers': {'Content-Length': '9', 'Accept-Encoding': 'gzip, deflate, compress', 'Accept': '*/*', 'User-Agent': 'python-requests/2.1.0 CPython/2.7.3 Windows/XP', 'Host': 'localhost:8888', 'Content-Type': 'application/x-www-form-urlencoded'}}
+2014-03-05 15:59:19 [-] [I 140305 15:59:19 web:1635] 200 POST /api (127.0.0.1) 0.00ms
+2014-03-05 15:59:57 [-] ('127.0.0.1', 54053)
+2014-03-05 15:59:57 [-] yy=5&xx=3
+2014-03-05 15:59:57 [-] {'yy': u'5', 'files': {}, 'xx': u'3', 'headers': {'Content-Length': '9', 'Accept-Encoding': 'gzip, deflate, compress', 'Accept': '*/*', 'User-Agent': 'python-requests/2.1.0 CPython/2.7.3 Windows/XP', 'Host': 'localhost:8888', 'Content-Type': 'application/x-www-form-urlencoded'}}
+2014-03-05 15:59:57 [-] [I 140305 15:59:57 web:1635] 200 POST /api (127.0.0.1) 0.00ms
+2014-03-05 16:00:15 [-] ('127.0.0.1', 54140)
+2014-03-05 16:00:15 [-] yy=5&xx=3
+2014-03-05 16:00:15 [-] {'files': {}, 'headers': {'Content-Length': '9', 'Accept-Encoding': 'gzip, deflate, compress', 'Accept': '*/*', 'User-Agent': 'python-requests/2.1.0 CPython/2.7.3 Windows/XP', 'Host': 'localhost:8888', 'Content-Type': 'application/json'}}
+2014-03-05 16:00:15 [-] [I 140305 16:00:15 web:1635] 200 POST /api (127.0.0.1) 0.00ms
+2014-03-05 16:09:50 [-] Log opened.
+2014-03-05 16:09:50 [-] start ioloop
+2014-03-05 16:09:56 [-] ('127.0.0.1', 56699)
+2014-03-05 16:09:56 [-] a=1&b=2
+2014-03-05 16:09:56 [-] {'a': u'1', 'files': {}, 'b': u'2', 'headers': {'Origin': 'chrome-extension://fdmmgilgnpjigdojojpjoooidkmcomcm', 'Content-Length': '7', 'Accept-Language': 'zh-CN,zh;q=0.8,en;q=0.6', 'Accept-Encoding': 'gzip,deflate,sdch', 'Connection': 'keep-alive', 'Accept': '*/*', 'User-Agent': 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Safari/537.36', 'Host': 'localhost:8888', 'Cookie': 'user="d3c=|1392881130|67d7301b4f1155ff01e90eab43a41ae5d8110630"; session_id="YjA1MzE5ZTQwNWZiOGY3MjNiZmM4OWY0YjVlM2ZmOTMyNDI4MzkwOQ==|1392970212|e151c4943fcdb3e07c8e7e6bff89257f1a53be0f"; username="Zmx5a2luZw==|1392973363|ad2563a402f07fe1c7fba34cf7df854192270ad2"', 'Cache-Control': 'no-cache', 'Content-Type': 'application/x-www-form-urlencoded'}}
+2014-03-05 16:09:56 [-] a=1&b=2
+2014-03-05 16:09:56 [-] [I 140305 16:09:56 web:1635] 200 POST /api (127.0.0.1) 0.00ms
+2014-03-05 16:10:28 [-] Log opened.
+2014-03-05 16:10:28 [-] start ioloop
+2014-03-05 16:10:30 [-] ('127.0.0.1', 56890)
+2014-03-05 16:10:30 [-] a=1&b=2
+2014-03-05 16:10:30 [-] {'a': u'1', 'files': {}, 'b': u'2', 'headers': {'Origin': 'chrome-extension://fdmmgilgnpjigdojojpjoooidkmcomcm', 'Content-Length': '7', 'Accept-Language': 'zh-CN,zh;q=0.8,en;q=0.6', 'Accept-Encoding': 'gzip,deflate,sdch', 'Connection': 'keep-alive', 'Accept': '*/*', 'User-Agent': 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Safari/537.36', 'Host': 'localhost:8888', 'Cookie': 'user="d3c=|1392881130|67d7301b4f1155ff01e90eab43a41ae5d8110630"; session_id="YjA1MzE5ZTQwNWZiOGY3MjNiZmM4OWY0YjVlM2ZmOTMyNDI4MzkwOQ==|1392970212|e151c4943fcdb3e07c8e7e6bff89257f1a53be0f"; username="Zmx5a2luZw==|1392973363|ad2563a402f07fe1c7fba34cf7df854192270ad2"', 'Cache-Control': 'no-cache', 'Content-Type': 'application/x-www-form-urlencoded'}}
+2014-03-05 16:10:30 [-] a=1&b=2
+2014-03-05 16:10:30 [-] [I 140305 16:10:30 web:1635] 200 POST /api (127.0.0.1) 16.00ms
+2014-03-05 16:13:48 [-] Log opened.
+2014-03-05 16:13:48 [-] start ioloop
+2014-03-05 16:14:41 [-] Log opened.
+2014-03-05 16:14:41 [-] start ioloop
+2014-03-05 16:14:45 [-] ('127.0.0.1', 58010)
+2014-03-05 16:14:45 [-] [1,2,3]
+2014-03-05 16:14:45 [-] {'files': {}, 'headers': {'Origin': 'chrome-extension://fdmmgilgnpjigdojojpjoooidkmcomcm', 'Content-Length': '7', 'Accept-Language': 'zh-CN,zh;q=0.8,en;q=0.6', 'Accept-Encoding': 'gzip,deflate,sdch', 'Connection': 'keep-alive', 'Accept': '*/*', 'User-Agent': 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Safari/537.36', 'Host': 'localhost:8888', 'Cookie': 'user="d3c=|1392881130|67d7301b4f1155ff01e90eab43a41ae5d8110630"; session_id="YjA1MzE5ZTQwNWZiOGY3MjNiZmM4OWY0YjVlM2ZmOTMyNDI4MzkwOQ==|1392970212|e151c4943fcdb3e07c8e7e6bff89257f1a53be0f"; username="Zmx5a2luZw==|1392973363|ad2563a402f07fe1c7fba34cf7df854192270ad2"', 'Cache-Control': 'no-cache', 'Content-Type': 'text/plain;charset=UTF-8'}}
+2014-03-05 16:14:45 [-] [1,2,3]
+2014-03-05 16:14:45 [-] [1, 2, 3]
+2014-03-05 16:14:45 [-] [I 140305 16:14:45 web:1635] 200 POST /api (127.0.0.1) 0.00ms
+2014-03-05 16:18:04 [-] Log opened.
+2014-03-05 16:18:04 [-] start ioloop
+2014-03-05 16:18:23 [-] ('127.0.0.1', 58983)
+2014-03-05 16:18:23 [-] {'files': {}, 'headers': {'Content-Length': '9', 'Accept-Encoding': 'gzip, deflate, compress', 'Accept': '*/*', 'User-Agent': 'python-requests/2.1.0 CPython/2.7.3 Windows/XP', 'Host': 'localhost:8888', 'Content-Type': 'application/json'}}
+2014-03-05 16:18:23 [-] yy=5&xx=3
+2014-03-05 16:18:23 [-] [I 140305 16:18:23 web:1635] 200 POST /api (127.0.0.1) 0.00ms
+2014-03-05 16:19:37 [-] Log opened.
+2014-03-05 16:19:37 [-] start ioloop
+2014-03-05 16:19:40 [-] ('127.0.0.1', 59314)
+2014-03-05 16:19:40 [-] {'files': {}, 'headers': {'Content-Length': '9', 'Accept-Encoding': 'gzip, deflate, compress', 'Accept': '*/*', 'User-Agent': 'python-requests/2.1.0 CPython/2.7.3 Windows/XP', 'Host': 'localhost:8888', 'Content-Type': 'application/json'}}
+2014-03-05 16:19:40 [-] yy=5&xx=3
+2014-03-05 16:19:40 [-] 
+2014-03-05 16:19:40 [-] [I 140305 16:19:40 web:1635] 200 POST /api (127.0.0.1) 16.00ms
+2014-03-05 16:21:50 [-] Log opened.
+2014-03-05 16:21:50 [-] start ioloop
+2014-03-05 16:21:53 [-] ('127.0.0.1', 59902)
+2014-03-05 16:21:53 [-] {'files': {}, 'headers': {'Content-Length': '9', 'Accept-Encoding': 'gzip, deflate, compress', 'Accept': '*/*', 'User-Agent': 'python-requests/2.1.0 CPython/2.7.3 Windows/XP', 'Host': 'localhost:8888', 'Content-Type': 'application/json'}}
+2014-03-05 16:21:53 [-] yy=5&xx=3
+2014-03-05 16:21:53 [<handlers.base.BaseHandler object at 0x00FC8A90>] jsonbody error!
+2014-03-05 16:21:53 [-] 
+2014-03-05 16:21:53 [-] [I 140305 16:21:53 web:1635] 200 POST /api (127.0.0.1) 0.00ms
+2014-03-05 16:35:37 [-] Log opened.
+2014-03-05 16:35:37 [-] start ioloop
+2014-03-05 16:35:49 [-] [I 140305 16:35:49 web:1635] 304 GET / (127.0.0.1) 16.00ms
+2014-03-05 16:35:53 [-] [W 140305 16:35:53 web:1635] 404 GET /xxx (127.0.0.1) 0.00ms
+2014-03-05 16:48:58 [-] Log opened.
+2014-03-05 16:48:58 [-] start ioloop
+2014-03-05 16:49:48 [-] [E 140305 16:49:48 web:1228] Uncaught exception GET /api (127.0.0.1)
+2014-03-05 16:49:48 [-]     HTTPRequest(protocol='http', host='localhost:8888', method='GET', uri='/api', version='HTTP/1.1', remote_ip='127.0.0.1', headers={'Accept-Language': 'zh-CN,zh;q=0.8,en;q=0.6', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': 'localhost:8888', 'Accept': '*/*', 'User-Agent': 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Safari/537.36', 'Connection': 'keep-alive', 'Cookie': 'user="d3c=|1392881130|67d7301b4f1155ff01e90eab43a41ae5d8110630"; session_id="YjA1MzE5ZTQwNWZiOGY3MjNiZmM4OWY0YjVlM2ZmOTMyNDI4MzkwOQ==|1392970212|e151c4943fcdb3e07c8e7e6bff89257f1a53be0f"; username="Zmx5a2luZw==|1392973363|ad2563a402f07fe1c7fba34cf7df854192270ad2"', 'Cache-Control': 'no-cache', 'Content-Type': 'application/x-www-form-urlencoded'})
+2014-03-05 16:49:48 [-]     Traceback (most recent call last):
+2014-03-05 16:49:48 [-]       File "C:\Python27\lib\site-packages\tornado-3.1-py2.7.egg\tornado\web.py", line 1141, in _when_complete
+2014-03-05 16:49:48 [-]         callback()
+2014-03-05 16:49:48 [-]       File "C:\Python27\lib\site-packages\tornado-3.1-py2.7.egg\tornado\web.py", line 1162, in _execute_method
+2014-03-05 16:49:48 [-]         self._when_complete(method(*self.path_args, **self.path_kwargs),
+2014-03-05 16:49:48 [-]       File "E:\projects\py\tornado-pure\handlers\base.py", line 47, in get
+2014-03-05 16:49:48 [-]         car1 = entries.Car(owner=p1, model="Lexus")
+2014-03-05 16:49:48 [-]     NameError: global name 'entries' is not defined
+2014-03-05 16:49:48 [-] [E 140305 16:49:48 web:1635] 500 GET /api (127.0.0.1) 31.00ms
+2014-03-05 16:50:18 [-] Log opened.
+2014-03-05 16:50:18 [-] start ioloop
+2014-03-05 16:50:25 [-] [I 140305 16:50:25 core:77] GET CONNECTION FROM THE LOCAL POOL
+2014-03-05 16:50:25 [-] [I 140305 16:50:25 core:85] INSERT INTO `person` (`name`, `age`, `motto`) VALUES (%s, %s, %s)
+2014-03-05 16:50:25 [-] [I 140305 16:50:25 core:85] INSERT INTO `car` (`owner`, `model`) VALUES (%s, %s)
+2014-03-05 16:50:25 [-] [I 140305 16:50:25 core:77] COMMIT
+2014-03-05 16:50:25 [-] [I 140305 16:50:25 core:77] RELEASE CONNECTION
+2014-03-05 16:50:25 [-] [I 140305 16:50:25 web:1635] 200 GET /api (127.0.0.1) 110.00ms
+2014-03-05 16:55:27 [-] Log opened.
+2014-03-05 16:55:27 [-] start ioloop
+2014-03-05 16:55:28 [-] [E 140305 16:55:28 web:1228] Uncaught exception GET /api (127.0.0.1)
+2014-03-05 16:55:28 [-]     HTTPRequest(protocol='http', host='localhost:8888', method='GET', uri='/api', version='HTTP/1.1', remote_ip='127.0.0.1', headers={'Accept-Language': 'zh-CN,zh;q=0.8,en;q=0.6', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': 'localhost:8888', 'Accept': '*/*', 'User-Agent': 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Safari/537.36', 'Connection': 'keep-alive', 'Cookie': 'user="d3c=|1392881130|67d7301b4f1155ff01e90eab43a41ae5d8110630"; session_id="YjA1MzE5ZTQwNWZiOGY3MjNiZmM4OWY0YjVlM2ZmOTMyNDI4MzkwOQ==|1392970212|e151c4943fcdb3e07c8e7e6bff89257f1a53be0f"; username="Zmx5a2luZw==|1392973363|ad2563a402f07fe1c7fba34cf7df854192270ad2"', 'Cache-Control': 'no-cache', 'Content-Type': 'application/x-www-form-urlencoded'})
+2014-03-05 16:55:28 [-]     Traceback (most recent call last):
+2014-03-05 16:55:28 [-]       File "C:\Python27\lib\site-packages\tornado-3.1-py2.7.egg\tornado\web.py", line 1141, in _when_complete
+2014-03-05 16:55:28 [-]         callback()
+2014-03-05 16:55:28 [-]       File "C:\Python27\lib\site-packages\tornado-3.1-py2.7.egg\tornado\web.py", line 1162, in _execute_method
+2014-03-05 16:55:28 [-]         self._when_complete(method(*self.path_args, **self.path_kwargs),
+2014-03-05 16:55:28 [-]       File "E:\projects\py\tornado-pure\handlers\errors.py", line 7, in get
+2014-03-05 16:55:28 [-]         raise tornado.web.HTTPError(404)
+2014-03-05 16:55:28 [-]     NameError: global name 'tornado' is not defined
+2014-03-05 16:55:28 [-] [E 140305 16:55:28 web:1635] 500 GET /api (127.0.0.1) 15.00ms
+2014-03-05 16:56:19 [-] Log opened.
+2014-03-05 16:56:19 [-] start ioloop
+2014-03-05 16:56:37 [-] [W 140305 16:56:37 web:1635] 404 GET /api (127.0.0.1) 0.00ms
+2014-03-05 16:56:50 [-] [I 140305 16:56:50 core:77] GET CONNECTION FROM THE LOCAL POOL
+2014-03-05 16:56:50 [-] [I 140305 16:56:50 core:85] INSERT INTO `person` (`name`, `age`, `motto`) VALUES (%s, %s, %s)
+2014-03-05 16:56:50 [-] [I 140305 16:56:50 core:85] INSERT INTO `car` (`owner`, `model`) VALUES (%s, %s)
+2014-03-05 16:56:50 [-] [I 140305 16:56:50 core:77] COMMIT
+2014-03-05 16:56:50 [-] [I 140305 16:56:50 core:77] RELEASE CONNECTION
+2014-03-05 16:56:50 [-] [I 140305 16:56:50 web:1635] 200 GET /testpony (127.0.0.1) 47.00ms

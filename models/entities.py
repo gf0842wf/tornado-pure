@@ -15,7 +15,7 @@ class Person(db.Entity):
     cars = orm.Set("Car")
 
 
-class Car(orm.Entity):
+class Car(db.Entity):
     __table__ = "car"
     
     owner = orm.Required(Person)
@@ -23,4 +23,6 @@ class Car(orm.Entity):
     
 
 orm.sql_debug(DBDEBUG)
-db.generate_mapping(create_tables=True)
+db.generate_mapping(create_tables=False)
+
+__all__ = ["Person", "Car", "db"]

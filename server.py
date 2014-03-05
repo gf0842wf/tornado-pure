@@ -18,4 +18,5 @@ if __name__ == "__main__":
     log.startLogging(lf)
     options.parse_command_line()
     application.listen(options.port)
+    log.msg("start ioloop")
     tornado.ioloop.IOLoop.instance().start()

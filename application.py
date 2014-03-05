@@ -14,6 +14,7 @@ SETTINGS = dict(
     static_path=get_path("static"),
     cookie_secret="6de683f6e8f038f62863fe27a17573e5",
     ui_modules=[{"Hero": HeroModule}, {"Home": HomeModule}],
+#     debug=True,
     )
 
 application = tornado.web.Application(
