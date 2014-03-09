@@ -3,10 +3,9 @@
 import tornado.web
 import json
 
-from lib.utils import LogMixin
 # import urlparse
 
-class BaseHandler(tornado.web.RequestHandler, LogMixin):
+class BaseHandler(tornado.web.RequestHandler):
     repr = property(lambda self: self.request.connection.stream.socket.getpeername())
     # 对于query string类型的请求数据存在这里
 #     qsbody = property(lambda self: urlparse.parse_qs(self.request.body))

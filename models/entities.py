@@ -7,7 +7,7 @@ db = orm.Database("mysql", **DB)
 
 
 class Person(db.Entity):
-    __table__ = "person"
+    _table_ = "person" # 注意是 _table_,而不是__table__
     
     name = orm.Required(unicode)
     age = orm.Required(int)
@@ -16,7 +16,7 @@ class Person(db.Entity):
 
 
 class Car(db.Entity):
-    __table__ = "car"
+    _table_ = "car"
     
     owner = orm.Required(Person)
     model = orm.Required(unicode) 

@@ -3,20 +3,18 @@
 """启动web server"""
 
 import tornado.ioloop
+import logging
 
 from application import application
 from tornado.options import define, options
-from twisted.python import log, logfile
-# from lib.utils import LogMixin
 
-define("port", 8888, help="port", type=int)
+define("port", 8888, help="define port", type=int) # tornado没有的命令要通过define定义(logging等命令有了)
 
 if __name__ == "__main__":
-    # 定义日志格式
-    lf = logfile.DailyLogFile("xxx.log","var/log/")
-    log.FileLogObserver.timeFormat = "%Y-%m-%d %H:%M:%S"
-    log.startLogging(lf)
+    options.logging = "debug"
+    options.log_file_prefix = "var/log/test_log@8888.log"
     options.parse_command_line()
     application.listen(options.port)
-    log.msg("start ioloop")
+    logging.debug("ioloop ... ")
     tornado.ioloop.IOLoop.instance().start()
+    # python server.py -port=8888 -logging=warning  
