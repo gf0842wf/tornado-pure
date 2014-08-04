@@ -20,8 +20,7 @@ class BaseHandler(tornado.web.RequestHandler):
         try:
             return json.loads(self.raw)
         except:
-            self.msg("jsonbody error!")
-            return ""
+            return None
         
     @property
     def reqbody(self):

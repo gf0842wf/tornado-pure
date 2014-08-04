@@ -6,6 +6,10 @@ from models.entities import Person, Car
 
 
 class TestPonyHandler(BaseHandler):
+    
+    def initialize(self, extra):
+        self.extra = extra
+        
     def get(self):
         with orm.db_session:
             p1 = Person(name="fk", age=24)

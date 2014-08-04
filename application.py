@@ -6,6 +6,7 @@ from urls import urls
 from handlers.uimodules import *
 
 import tornado.web
+import tornado.wsgi
 import os
 
 get_path = lambda d: os.path.join(os.path.dirname(__file__), d)
@@ -21,3 +22,8 @@ application = tornado.web.Application(
     handlers=urls,
     **SETTINGS
     )
+
+wsgi_application = tornado.wsgi.WSGIApplication(
+    handlers=urls,
+    **SETTINGS
+)
